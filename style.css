@@ -1,9 +1,9 @@
 :root{
   --ground:#FAFBFC; --surface:#F1F5F8; --surface-2:#E9F0F5; --line:#DCE6ED;
   --ink:#0A1A2B; --ink-2:#41586C; --ink-3:#73889A;
-  --blue:#0B6FA4; --blue-bright:#1BA1E8; --blue-soft:#E7F3FA;
-  --pink:#C14E7C; --pink-bright:#F4A8C4; --pink-soft:#FBEFF4;
-  --sand:#E8D5CC;
+  --blue:#0B6FA4; --blue-bright:#00A0EA; --blue-soft:#E7F3FA;
+  --pink:#C14E7C; --pink-bright:#F29FBB; --pink-soft:#FBEFF4;
+  --sand:#E7D4D0;
   --night:#08192A; --night-2:#102B44; --night-line:#1E3D57; --night-ink:#D9E6EF; --night-ink-2:#8BA6BC;
   --maxw:1160px;
   --serif:"Noto Serif KR",-apple-system,"Apple SD Gothic Neo",serif;
@@ -54,10 +54,11 @@ a{color:inherit;text-decoration:none}
 /* ── header ── */
 .site{background:var(--night);position:sticky;top:env(safe-area-inset-top,0px);z-index:40;border-bottom:1px solid var(--night-line)}
 .site .wrap{display:flex;align-items:center;gap:28px;min-height:70px}
-.brand{display:flex;align-items:center;gap:11px;margin-right:auto}
-.mark{width:34px;height:25px;flex:none;display:block}
-.wordmark{font-family:var(--sans);font-weight:600;font-size:19px;letter-spacing:.05em;color:#fff}
-.wordmark em{font-style:normal;color:var(--pink-bright)}
+.brand{display:flex;align-items:center;gap:12px;margin-right:auto}
+.mark{width:48px;height:36px;flex:none;display:block}
+.wordmark{font-family:"Poppins","IBM Plex Sans",system-ui,sans-serif;font-weight:800;
+  font-size:23px;letter-spacing:-.012em;line-height:1;color:#00A0EA}
+.wordmark em{font-style:normal;color:#F29FBB}
 nav.main{display:flex;gap:30px;font-size:14px;color:var(--night-ink-2);letter-spacing:.01em}
 nav.main a{position:relative;padding:6px 0}
 nav.main a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--pink-bright);transition:right .35s cubic-bezier(.2,.7,.3,1)}
