@@ -107,6 +107,7 @@ nav.main a:hover::after{right:0}
 .route .origin{fill:#fff}
 .route .city{font-family:var(--mono);font-size:12.5px;fill:#fff;letter-spacing:.03em}
 .route .dist{font-family:var(--mono);font-size:10.5px;fill:var(--night-ink-2);letter-spacing:.06em}
+.route .country{font-family:var(--mono);font-size:9.5px;fill:var(--night-ink-2);letter-spacing:.2em;opacity:.72}
 .route .seoul{font-family:var(--mono);font-size:15px;fill:#fff;letter-spacing:.09em;font-weight:500}
 .route .seoul-sub{font-family:var(--mono);font-size:11px;fill:var(--blue-bright);letter-spacing:.14em}
 @media (prefers-reduced-motion:no-preference){
@@ -265,6 +266,7 @@ footer .wrap{padding-block:40px}
   .biz-facts div:last-child{border-bottom:0}
   .route .city{font-size:20px}
   .route .dist{font-size:16px}
+  .route .country{font-size:13px;letter-spacing:.12em}
   .route .seoul{font-size:23px}
   .route .seoul-sub{font-size:16px}
 }
